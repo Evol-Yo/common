@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ $# -lt 2 ];then
-    echo "./*** <begin_date> <end_date>"
+    echo "./*** <begin_date> <end_date> <retry>"
     exit 1
 fi
 
